@@ -25,8 +25,6 @@ p {
 
 /*psaudo klasy*/
 
-
-
 a:link {
     color: #444;
 }
@@ -46,4 +44,30 @@ a:hover {
 
 input:focus {
     background-color: green;
+}
+
+p:target {
+    color:
+}
+
+li:first-child {
+    font-size: 2em;
+}
+
+li:last-child {
+    font-size: 2em;
+}
+
+p span:only-child {
+    font-size: 2em;
+}
+
+div:empty {
+    background-color:black;
+    width:400px;
+    height: 400px;
+}
+
+li:nth-child(odd) {
+    background-color: purple;
 }
