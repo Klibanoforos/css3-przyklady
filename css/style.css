@@ -8,8 +8,42 @@ p {
 
 /*pseudo selektory*/
 
-#par1::before {
+#par1::before,
+#par1::after {
     content: '*';
     color: #fff;
     font-size: 3em;
+}
+
+#par2::first-letter {
+    color: yellow;
+}
+
+#par1::first-line {
+    color: yellow;
+}
+
+/*psaudo klasy*/
+
+
+
+a:link {
+    color: #444;
+}
+
+a:visited {
+    color:#000;
+}
+
+a:active {
+    font-size: 22px;
+}
+
+a:hover {
+    background-color: red;
+    font-size: 18px;
+}
+
+input:focus {
+    background-color: green;
 }
