@@ -1,0 +1,15 @@
+* {
+    background-color: wheat;
+}
+
+p {
+    background-color: aquamarine;
+}
+
+/*pseudo selektory*/
+
+#par1::before {
+    content: '*';
+    color: #fff;
+    font-size: 3em;
+}
