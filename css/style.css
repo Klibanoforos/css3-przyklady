@@ -46,8 +46,8 @@ input:focus {
     background-color: green;
 }
 
-p:target {
-    color:
+li:target {
+    background-color: purple;
 }
 
 li:first-child {
@@ -70,4 +70,26 @@ div:empty {
 
 li:nth-child(odd) {
     background-color: purple;
+}
+
+ul > li:nth-last-child(2n+1) {
+    background-color: brown;
+}
+
+/*selektory atrybutów*/
+
+input[title] {
+    background-color: blue;
+}
+
+input[value="1"] {
+    background-color: aqua;
+}
+
+input[type="email"] {
+    background-color: deeppink;
+}
+
+input[title~="po"] {
+    background-color: gold;
 }
